@@ -21,7 +21,7 @@ const Login = () => {
     }
     
     if(error){
-        Alert.alert('Dükkan', 'Bir hata oluştu')
+        Alert.alert('Dükkan', 'Kullanıcı Bulunamadı')
         console.log(error)
         
         
